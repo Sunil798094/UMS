@@ -12,7 +12,10 @@ import { RegisterComponent } from './register/register.component';
 import { MatRadioModule } from '@angular/material/radio';
 import { ToastrModule } from 'ngx-toastr';
 
+import { MatInputModule } from '@angular/material/input';
+
 import { HttpClientModule } from '@angular/common/http';
+import { MaterialModule } from 'src/material.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,11 +26,12 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatFormFieldModule,
-    MatCardModule,
+    // MatFormFieldModule,
+    // MatCardModule,
     ReactiveFormsModule,
-    MatRadioModule,
-   
+    // MatRadioModule,
+    // MatInputModule,
+    MaterialModule,
     HttpClientModule,
     ToastrModule.forRoot()
   ],
