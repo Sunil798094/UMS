@@ -18,7 +18,7 @@
       "password": "Test@1234",
       "email": "test@in.com",
       "gender": "male",
-      "role": "tech",
+      "role": "user",
       "isactive": true
     },
     {
@@ -80,26 +80,39 @@
       "gender": "male",
       "role": "user",
       "isactive": true
+    },
+    {
+      "id": "aabc123",
+      "name": "sunil",
+      "password": "Sunil@123",
+      "email": "schouhan2019@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isactive": false
     }
   ],
   "role": [
     {
       "code": "user",
-      "name": "User"
+      "name": "User",
+      "id": "d093"
     },
     {
       "code": "tech",
-      "name": "Technician"
+      "name": "Technician",
+      "id": "d7ee"
     }
   ],
   "menu": [
     {
       "code": "user",
-      "name": "User"
+      "name": "User",
+      "id": "1ed9"
     },
     {
       "code": "customer",
-      "name": "Customer"
+      "name": "Customer",
+      "id": "768a"
     }
   ],
   "roleaccess": [
@@ -108,53 +121,57 @@
       "menu": "user",
       "haveedit": true,
       "haveadd": true,
-      "havedelete": true
+      "havedelete": true,
+      "id": "baa2"
     },
     {
       "role": "admin",
       "menu": "customer",
       "haveedit": true,
       "haveadd": true,
-      "havedelete": true
+      "havedelete": true,
+      "id": "c9e5"
     },
     {
       "role": "user",
       "menu": "user",
       "haveedit": false,
       "haveadd": false,
-      "havedelete": false
+      "havedelete": false,
+      "id": "9277"
     },
     {
       "role": "user",
       "menu": "customer",
       "haveedit": true,
       "haveadd": true,
-      "havedelete": false
+      "havedelete": false,
+      "id": "af2c"
     }
   ],
   "customer": [
     {
-      "id": 1,
+      "id": "1",
       "name": "rakhesh",
       "Creditlimit": 1000
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "rahul",
       "Creditlimit": 1000
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "ramesh",
       "Creditlimit": 1000
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "rahim",
       "Creditlimit": 1000
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "robert",
       "Creditlimit": 1000
     }
